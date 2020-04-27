@@ -1,3 +1,4 @@
+import 'package:device_preview/device_preview.dart';
 import 'package:flutter/material.dart';
 
 class MyApp extends StatelessWidget {
@@ -5,7 +6,8 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'Epidemiologia LatinoAmerica',
+      builder: DevicePreview.appBuilder,
       theme: ThemeData(
         // This is the theme of your application.
         //
