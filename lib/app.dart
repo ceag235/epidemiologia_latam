@@ -8,6 +8,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Epidemiologia LatinoAmerica',
       builder: DevicePreview.appBuilder,
+      debugShowCheckedModeBanner: false,
       theme: ThemeData(
         // This is the theme of your application.
         //
