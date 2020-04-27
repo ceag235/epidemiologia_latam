@@ -9,9 +9,6 @@ class MyApp extends StatelessWidget {
       title: 'Epidemiologia LatinoAmerica',
       builder: DevicePreview.appBuilder,
       debugShowCheckedModeBanner: false,
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
       home: Scaffold(
         body: Container(),
       ),
