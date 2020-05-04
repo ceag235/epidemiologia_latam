@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:stacked_services/stacked_services.dart';
 
 import 'app/locator.dart';
+import 'app/routes.gr.dart';
 
 class MyApp extends StatelessWidget {
   // This widget is the root of your application.
@@ -13,9 +14,8 @@ class MyApp extends StatelessWidget {
       builder: DevicePreview.appBuilder,
       debugShowCheckedModeBanner: false,
       navigatorKey: locator<NavigationService>().navigatorKey,
-      home: Scaffold(
-        body: Container(),
-      ),
+      initialRoute: Routes.splashViewRoute,
+      onGenerateRoute: Router().onGenerateRoute,
     );
   }
 }
