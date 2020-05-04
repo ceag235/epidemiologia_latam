@@ -3,15 +3,17 @@ import 'package:stacked_services/stacked_services.dart';
 
 import '../../../app/locator.dart';
 
-class HomeViewModel extends BaseViewModel {
+class SplashViewModel extends BaseViewModel {
   //  Services
-  final _navigationService = locator<NavigationService>();
+  final NavigationService _navigationService = locator<NavigationService>();
 
   // Variables
-  String _title = "Home View";
+  String _title = "Startup View";
 
   // Getters
   String get title => _title;
 
-  // View Model interfaces
+  // Interfaces
+  void navigateToHome() async {
+  }
 }
