@@ -19,6 +19,9 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  # Architecture
+  stacked: ^1.3.4
+  stacked_services: ^0.2.0+1
   # Utils
   device_preview: ^0.4.4
 
