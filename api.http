@@ -11,7 +11,7 @@ GET {{baseUrl}}/summary
 GET {{countries}}
 
 ### Dia 1 - todos los casos desde el primer dia
-GET {{dayOneCountry}}/united-states
+GET {{dayOneCountry}}/dominican-republic
 
 ### Dia 1 - todos los casos desde el primer dia por renglones: muertos, etc...
 GET {{dayOneCountry}}/dominican-republic/status/deaths
