@@ -16,5 +16,6 @@ class SplashViewModel extends BaseViewModel {
 
   // Interfaces
   void navigateToHome() async {
+    await _navigationService.navigateTo(Routes.homeViewRoute);
   }
 }
