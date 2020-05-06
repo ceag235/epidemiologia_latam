@@ -19,4 +19,5 @@ const Color monoGrey = const Color.fromRGBO(167, 167, 167, 1.0); //  #A7A7A7
 const Color mediumMonoGrey =
     const Color.fromRGBO(123, 121, 110, 1.0); //  #7B796E
 const Color darkMonoGrey = const Color.fromRGBO(112, 112, 112, 1.0); //  #707070
+const Color softShadow = const Color.fromRGBO(0, 0, 0, 0.15); // #000000
 const Color blackMonoLetter = const Color.fromRGBO(45, 43, 42, 1.0); //  #2D2B2A
