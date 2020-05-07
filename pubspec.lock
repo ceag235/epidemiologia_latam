@@ -227,12 +227,12 @@ packages:
     source: hosted
     version: "0.7.1"
   get:
-    dependency: transitive
+    dependency: "direct overridden"
     description:
       name: get
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "1.17.3"
+    version: "2.0.9-dev"
   get_it:
     dependency: "direct main"
     description:
