@@ -20,8 +20,8 @@ dependencies:
   flutter:
     sdk: flutter
   # Architecture
-  stacked: ^1.4.1+2
-  stacked_services: ^0.2.2
+  stacked: ^1.4.2
+  stacked_services: ^0.2.3
   # Dependency Locator
   get_it: ^4.0.2
   injectable: ^0.3.0
@@ -43,12 +43,10 @@ dev_dependencies:
   flutter_launcher_icons: ^0.7.5
   # Generators
   build_runner: ^1.9.0
-  auto_route_generator: ^0.4.8
+  auto_route_generator: ^0.4.9
   injectable_generator: ^0.3.5
   json_serializable: ^3.3.0
 
-dependency_overrides:
-  get: '2.0.9-dev'
 
 # Adding support for launcher icons
 flutter_icons:
