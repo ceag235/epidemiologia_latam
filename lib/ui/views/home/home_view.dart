@@ -30,11 +30,28 @@ class HomeView extends StatelessWidget {
                 mainAxisSize: MainAxisSize.min,
                 children: <Widget>[
                   SizedBox(height: smallFieldHeight),
+<<<<<<< Updated upstream
                   TestCard(),
                   SizedBox(height: smallFieldHeight),
                   GlobalCard(),
                   SizedBox(height: smallFieldHeight),
                   LocalCard(),
+=======
+                  GestureDetector(
+                    child: TestCard(),
+                    onTap: () {},
+                  ),
+                  SizedBox(height: smallFieldHeight),
+                  GestureDetector(
+                    child: GlobalCard(),
+                    onTap: () {},
+                  ),
+                  SizedBox(height: smallFieldHeight),
+                  GestureDetector(
+                    child: LocalCard(),
+                    onTap: () {},
+                  ),
+>>>>>>> Stashed changes
                   SizedBox(height: smallFieldHeight),
                   Text(
                     "Notas Importantes",
