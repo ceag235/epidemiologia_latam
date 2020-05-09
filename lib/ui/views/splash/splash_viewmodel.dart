@@ -2,6 +2,7 @@ import 'package:stacked/stacked.dart';
 import 'package:stacked_services/stacked_services.dart';
 
 import '../../../app/locator.dart';
+import '../../../app/routes.gr.dart';
 
 class SplashViewModel extends BaseViewModel {
   //  Services
@@ -15,5 +16,6 @@ class SplashViewModel extends BaseViewModel {
 
   // Interfaces
   void navigateToHome() async {
+    await _navigationService.navigateTo(Routes.homeViewRoute);
   }
 }
