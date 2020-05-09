@@ -227,16 +227,20 @@ packages:
     source: hosted
     version: "0.7.1"
   get:
-    dependency: "direct overridden"
+    dependency: transitive
     description:
       name: get
       url: "https://pub.dartlang.org"
     source: hosted
+<<<<<<< HEAD
 <<<<<<< Updated upstream
     version: "2.0.9-dev"
 =======
     version: "2.1.1"
 >>>>>>> Stashed changes
+=======
+    version: "2.1.1"
+>>>>>>> dev
   get_it:
     dependency: "direct main"
     description:
@@ -570,22 +574,30 @@ packages:
       name: stacked
       url: "https://pub.dartlang.org"
     source: hosted
+<<<<<<< HEAD
 <<<<<<< Updated upstream
     version: "1.4.1+2"
 =======
     version: "1.4.2"
 >>>>>>> Stashed changes
+=======
+    version: "1.4.2"
+>>>>>>> dev
   stacked_services:
     dependency: "direct main"
     description:
       name: stacked_services
       url: "https://pub.dartlang.org"
     source: hosted
+<<<<<<< HEAD
 <<<<<<< Updated upstream
     version: "0.2.2"
 =======
     version: "0.2.3"
 >>>>>>> Stashed changes
+=======
+    version: "0.2.3"
+>>>>>>> dev
   stream_channel:
     dependency: transitive
     description:

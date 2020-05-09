@@ -20,6 +20,7 @@ dependencies:
   flutter:
     sdk: flutter
   # Architecture
+<<<<<<< HEAD
 <<<<<<< Updated upstream
   stacked: ^1.4.1+2
   stacked_services: ^0.2.2
@@ -27,6 +28,10 @@ dependencies:
   stacked: ^1.4.2
   stacked_services: ^0.2.3
 >>>>>>> Stashed changes
+=======
+  stacked: ^1.4.2
+  stacked_services: ^0.2.3
+>>>>>>> dev
   # Dependency Locator
   get_it: ^4.0.2
   injectable: ^0.3.0
@@ -52,11 +57,14 @@ dev_dependencies:
   injectable_generator: ^0.3.5
   json_serializable: ^3.3.0
 
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 dependency_overrides:
   get: '2.0.9-dev'
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> dev
 
 # Adding support for launcher icons
 flutter_icons:
