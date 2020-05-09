@@ -5,7 +5,8 @@ import '../ui/views/splash/splash_view.dart';
 
 @MaterialAutoRouter()
 class $Router {
-  HomeView homeViewRoute;
-
+  @initial
   SplashView splashViewRoute;
+
+  HomeView homeViewRoute;
 }
